@@ -70,6 +70,8 @@
     <Content Include="Db\Bang_Sach.sql" />
     <Content Include="Default.aspx" />
     <Content Include="image\giaokhoalop1.jpg" />
+    <Content Include="image\giaokhoalop2.jpg" />
+    <Content Include="image\truyencuoi.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

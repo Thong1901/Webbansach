@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-4" style="text-align: right;">
             <asp:Label ID="Label5" runat="server" Text="[" Font-Size="12px" Visible="true"></asp:Label>
-       
+
             <asp:Label ID="Label6" runat="server" Text="]" Font-Size="12px" Visible="true"></asp:Label>
         </div>
 
@@ -47,15 +47,20 @@
                         </asp:BoundField>
                         <asp:TemplateField HeaderText="image">
                             <ItemTemplate>
-                                <asp:Image ID="img" runat="server" Width="100px" Height="100px" ImageUrl='<%#  "~/Images/"+Eval("img") %>' />
+                                <asp:Image ID="img" runat="server" Width="100px" Height="100px" ImageUrl='<%#  "~/image/"+Eval("img") %>' />
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
                 </asp:GridView>
             </div>
         </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <asp:Image ID="Image1" runat="server" Width="500px" Height="500px" />
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
     </div>
-
-
 </asp:Content>
 
